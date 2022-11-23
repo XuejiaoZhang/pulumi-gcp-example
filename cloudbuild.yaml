@@ -1,0 +1,12 @@
+steps:
+- id: 'install pulumi'
+  name: 'curl'
+  entrypoint: 'sh'
+  args: 
+  - '-c'
+  - |
+       curl -fsSL https://get.pulumi.com | sh 
+       ls -al
+       git status
+
+
